@@ -6,6 +6,7 @@ import theme from "./theme";
 import { hot } from "react-hot-loader";
 
 const App = () => {
+  // remove server-side injected CSS
   React.useEffect(() => {
     const jssStyles = document.querySelector("#jss-server-side");
     if (jssStyles) {
