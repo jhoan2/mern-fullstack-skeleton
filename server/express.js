@@ -5,6 +5,10 @@ import compress from "compression";
 import cors from "cors";
 import helmet from "helmet";
 import path from "path";
+import Template from "./../template";
+import userRoutes from "./routes/user.routes";
+import authRoutes from "./routes/auth.routes";
+
 //modules for server side rendering
 import React from "react";
 import ReactDOMServer from "react-dom/server";
